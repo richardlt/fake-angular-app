@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="fake-angular-app">
+
+    <head>
+
+        <link rel="stylesheet" href="/static/bootstrap/dist/css/bootstrap.min.css">
+        <script type="text/javascript" src="/static/angular/angular.js"></script>
+        <script type="text/javascript" src="/static/angular-ui-router/release/angular-ui-router.min.js"></script>
+        <script type="text/javascript" src="/static/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="/static/bootstrap/dist/js/bootstrap.min.js"></script>
+
+        <script type="text/javascript" src="/app.js"></script>
+        <script type="text/javascript" src="/pages/one/one.controller.page.js"></script>
+        <script type="text/javascript" src="/pages/two/two.controller.page.js"></script>
+        <script type="text/javascript" src="/pages/three/three.controller.page.js"></script>
+        <script type="text/javascript" src="/routes.js"></script>
+
+    </head>
+
+    <body>
+        <ol class="breadcrumb">
+            <li><a href="#/one">One</a></li>
+            <li><a href="#/two">Two</a></li>
+            <li><a href="#/three">Three</a></li>
+        </ol>
+        <div ui-view style="margin:20px;"></div>
+    </body>
+
+</html>
