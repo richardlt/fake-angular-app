@@ -1,22 +1,23 @@
 {
-  "name": "fake-angular-app",
-  "version": "1.0.0",
-  "description": "Fake angular app with multiple pages and forms",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/richardlt/fake-angular-app.git"
-  },
-  "author": "richardlt <richard.le.terrier@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/richardlt/fake-angular-app/issues"
-  },
-  "homepage": "https://github.com/richardlt/fake-angular-app#readme",
-  "dependencies": {
-    "express": "^4.13.4"
-  }
+    "name": "fake-angular-app",
+    "version": "1.0.0",
+    "description": "Fake angular app with multiple pages and forms",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/richardlt/fake-angular-app.git"
+    },
+    "author": "richardlt <richard.le.terrier@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/richardlt/fake-angular-app/issues"
+    },
+    "homepage": "https://github.com/richardlt/fake-angular-app#readme",
+    "dependencies": {
+        "express": "^4.13.4"
+    }
 }
